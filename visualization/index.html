@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Model Decision Surfaces</title>
+    <link rel="stylesheet" href="static/css/flexboxgrid.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="static/js/d3.geo.voronoi.js"></script>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="menu_container">
+    <div class="row" id="probabilities"
+         onclick="toggleProbabilities(toggle=true)">
+        <div class="text label">probabilities</div>
+        <div class="text toggle"></div>
+        <div class="tag"></div>
+    </div>
+    <div class="row" id="cell_borders" onclick="toggleCells(toggle=true)">
+        <div class="text label">cell borders</div>
+        <div class="text toggle"></div>
+        <div class="tag"></div>
+    </div>
+</div>
+
+<div class="title_container">
+    <div class="text title" id="title"></div>
+    <div class="text subtitle" onclick="selectModel('underfitting');">
+        underfitting
+    </div>
+    <div class="text subtitle" onclick="selectModel('overfitting');">
+        overfitting
+    </div>
+    <div class="text subtitle" onclick="selectModel('in between');">in
+        between
+    </div>
+    <div class="text subtitle"
+         onclick="selectModel('gradient boosted classifier');">gradient boosted
+        classifier
+    </div>
+</div>
+
+<div class="alert_container">
+    <div class="alert" id="probability_subset">
+        <div class="text label_on_alert" id="probability_subset_text"></div>
+        <div class="tag yellow_alert"></div>
+    </div>
+</div>
+
+<br>
+
+</body>
+
+<script src="static/js/visualization.js"></script>
+<script src="static/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</html>
+
+
