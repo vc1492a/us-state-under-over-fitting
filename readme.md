@@ -16,9 +16,15 @@ shown below.
 ![notebook_surface](images/notebook_surface.png)
 
 The D3 visualization can be used to explore decision surfaces generated in the
-notebook interactively.
+notebook interactively. On the left are toggles for different views, and
+on the right selections for models and their respective decision surfaces.
 
 ![visualization_surface](images/visualization_surface.png)
+
+This repository and its contents serve as a learning exercise on the
+effects of under and overfit models' generalizability to new data - using
+U.S. states helps because the appropriate geographic shapes are familiar
+to many.
 
 ## How To
 
@@ -35,8 +41,6 @@ To start the D3 visualization, the following will work using Python 3:
 
 ```sh
 cd visualization
-```
-```python
 python3 -m http.server
 ```
 
