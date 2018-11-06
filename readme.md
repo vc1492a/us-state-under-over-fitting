@@ -44,9 +44,10 @@ cd visualization
 python3 -m http.server
 ```
 
-The initial load may take a few seconds while the data is processed. Use
-the toggle switches in the top left to alter views and the selections in
-the top right to select between models.
+Go to `localhost:8000` in your browser. The initial load may take a few
+seconds while the data is processed - a map will appear when ready.
+Use the toggle switches in the top left to alter views and the selections
+in the top right to select between models.
 
 ## License
 This project is licensed under the MIT license.
