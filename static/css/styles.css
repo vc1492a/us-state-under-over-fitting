@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    text-align:center;
+    justify-content:center;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(46, 46, 48, 1);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+text {
+    fill: #fff;
+}
+
+svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#map {
+    position: relative;
+}
+
+canvas {
+    cursor: move;
+}
+
+path {
+    stroke: #e7e7e7;
+    stroke-linejoin: round;
+    fill: lightgray;
+}
+
+.voronoi-border-path:hover {
+    fill: #E9FF00 !important;
+    opacity: 1.0 !important;
+}
+
+.points {
+    pointer-events: none;
+}
+
+.states {
+    stroke: #000;
+    fill: none;
+}
+
+.tooltip_title {
+	 font-weight: bold;
+	 color: gray;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {
+	padding: 10px;
+    position: absolute;
+    text-align: left;
+    width: auto;
+    min-width: 130px;
+    height: 55px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+/* menu */
+.menu_container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 140px;
+  height: 100%;
+  background-color: rgba(46, 46, 48, 0.7);
+  overflow: hidden;
+}
+.row {
+  display: flex;
+}
+.row:hover {
+  background-color: gray;
+}
+.row:hover .text {
+    font-weight: 800;
+}
+.text {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin-left: 30px;
+  margin-right: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.label {
+  color: #72D4A8;
+  font-weight: 400;
+}
+.label_on {
+  /*font-weight: 800;*/
+}
+.toggle {
+  position: absolute;
+  /*z-index: 0;*/
+  height: 20px;
+  width: 200px;
+}
+.tag {
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 5px;
+  margin-top: 7px;
+}
+.tag_on {
+  background-color: #FF3D3D;
+}
+
+/* alerts */
+.alert_container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.alert {
+    display: flex;
+    text-transform: lowercase;
+    padding: 3px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: 300px;
+    text-align: left;
+    opacity: 0;
+}
+.label_on_alert {
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+    margin: 0;
+}
+.yellow_alert {
+    background-color: rgba(255, 197, 0, 1);
+    height: 15px;
+    width: 5px;
+    margin-top: 9px;
+}
+
+/* titles */
+.title_container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.title {
+    text-align: right;
+    color: #fff;
+    font-weight: 100;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-bottom: 1px dotted white;
+}
+.subtitle {
+    text-align: right;
+    color: #fff;
+    font-weight: 100;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    height: 10px;
+}
+.subtitle:hover {
+    color: #72D4A8;
+    font-weight: 800;
+    cursor: pointer;
+}
