@@ -15,7 +15,8 @@ shown below.
 
 ![notebook_surface](images/notebook_surface.png)
 
-The D3 visualization can be used to explore decision surfaces generated in the
+The [D3 visualization](https://vc1492a.github.io/us-state-under-over-fitting/)
+can be used to explore decision surfaces generated in the
 notebook interactively. On the left are toggles for different views, and
 on the right selections for models and their respective decision surfaces.
 
