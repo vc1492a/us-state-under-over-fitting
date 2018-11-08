@@ -12,10 +12,9 @@ This repository contains a jupyter notebook and D3 visualization that showcases 
 examples of the concepts of under and overfitting. In the notebook,
 data is processed, models are fit, and decision surfaces visualized, as
 shown below.
+![notebook_surface](https://i.imgur.com/s5cp3Um.png)
 
-![notebook_surface](images/notebook_surface.png)
-
-The [D3 visualization](https://vc1492a.github.io/us-state-under-over-fitting/)
+The [D3 visualization](https://i.imgur.com/yd7Dzgv.png/)
 can be used to explore decision surfaces generated in the
 notebook interactively. On the left are toggles for different views, and
 on the right selections for models and their respective decision surfaces.
@@ -56,7 +55,7 @@ This project is licensed under the MIT license.
 ## Contributors
 
 - [Valentino Constantinou](https://github.com/vc1492a)
-- Christopher Laporte
+- [Christopher Laporte](https://github.com/cdlaporte)
 
 ## Acknowledgements
 
