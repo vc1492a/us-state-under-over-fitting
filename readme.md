@@ -14,12 +14,12 @@ data is processed, models are fit, and decision surfaces visualized, as
 shown below.
 ![notebook_surface](https://i.imgur.com/s5cp3Um.png)
 
-The [D3 visualization](https://i.imgur.com/yd7Dzgv.png/)
+The [D3 visualization](https://vc1492a.github.io/us-state-under-over-fitting/)
 can be used to explore decision surfaces generated in the
 notebook interactively. On the left are toggles for different views, and
 on the right selections for models and their respective decision surfaces.
 
-![visualization_surface](images/visualization_surface.png)
+![visualization_surface](https://i.imgur.com/yd7Dzgv.png/)
 
 This repository and its contents serve as a learning exercise on the
 effects of under and overfit models' generalizability to new data - using
