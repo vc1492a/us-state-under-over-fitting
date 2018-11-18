@@ -49,6 +49,11 @@ seconds while the data is processed - a map will appear when ready.
 Use the toggle switches in the top left to alter views and the selections
 in the top right to select between models.
 
+## Future Work
+
+The d3 visualization can be a little slow to render depending on the browser
+and available resources. This can likely be addressed with a thorough refactor.
+
 ## License
 This project is licensed under the MIT license.
 
